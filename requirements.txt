@@ -1,0 +1,5 @@
+evadb
+pandas
+numpy
+torch
+torchvision
