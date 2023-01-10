@@ -1,0 +1,8 @@
+01-11-2023 00:03:05 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF FastRCNNObjectDetector already exists, nothing added.
+01-11-2023 00:03:05 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF MVITActionRecognition already exists, nothing added.
+01-11-2023 00:03:05 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF Array_Count already exists, nothing added.
+01-11-2023 00:03:05 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF Crop already exists, nothing added.
+01-11-2023 00:03:05 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF DummyObjectDetector already exists, nothing added.
+01-11-2023 00:03:05 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF DummyMultiObjectDetector already exists, nothing added.
+01-11-2023 00:03:05 CRITICAL[server:server.py:start_server:0096] Start Server
+01-11-2023 00:03:05 CRITICAL[eva_server:eva_server.py:eva:0058] [Errno 48] error while attempting to bind on address ('0.0.0.0', 5432): address already in use
