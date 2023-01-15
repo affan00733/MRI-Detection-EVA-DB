@@ -34,11 +34,11 @@ class Model(nn.Module):
         out = self.net(x)
         return out
 
-class CustomModel(PytorchAbstractClassifierUDF):
+class MRIClassifier(PytorchAbstractClassifierUDF):
 
     @property
     def name(self) -> str:
-        return "CustomModel"
+        return "MRIClassifier"
 
     def setup(self):
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

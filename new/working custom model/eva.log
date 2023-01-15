@@ -1,0 +1,27 @@
+01-16-2023 00:33:49 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF FastRCNNObjectDetector already exists, nothing added.
+01-16-2023 00:33:49 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF MVITActionRecognition already exists, nothing added.
+01-16-2023 00:33:49 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF Array_Count already exists, nothing added.
+01-16-2023 00:33:49 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF Crop already exists, nothing added.
+01-16-2023 00:33:49 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF DummyObjectDetector already exists, nothing added.
+01-16-2023 00:33:49 WARNING[create_udf_executor:create_udf_executor.py:exec:0042] UDF DummyMultiObjectDetector already exists, nothing added.
+01-16-2023 00:33:49 CRITICAL[server:server.py:start_server:0096] Start Server
+01-16-2023 00:33:49 CRITICAL[eva_server:eva_server.py:eva:0058] [Errno 48] error while attempting to bin01-16-2023 00:34:47 WARNING[CustomModel:CustomModel.py:pred:0073] (256, 256, 1, 64)
+/Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py:94: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  outcome = outcome.append({"results": pred}, ignore_index=True)
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/eva/udfs/abstract/pytorch_abstract_udf.py:76: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  outcome = outcome.append(self.forward(tensor), ignore_index=True)
+01-16-2023 00:38:32 ERROR [generic_utils:generic_utils.py:path_to_class:0069] Failed to import MRIClassifier from /Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py
+Exception: module 'CustomModel' has no attribute 'MRIClassifier'
+01-16-2023 00:38:32 ERROR [create_udf_executor:create_udf_executor.py:exec:0061] Failed to import MRIClassifier from /Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py
+Exception: module 'CustomModel' has no attribute 'MRIClassifier'. Please verify that the UDF class name in the implementation file matches the provided UDF name MRIClassifier.
+01-16-2023 00:38:32 WARNING[command_handler:command_handler.py:handle_request:0076] Failed to import MRIClassifier from /Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py
+Exception: module 'CustomModel' has no attribute 'MRIClassifier'. Please verify that the UDF class name in the implementation file matches the provided UDF name MRIClassifier.
+01-16-2023 00:39:17 ERROR [drop_udf_executor:drop_udf_executor.py:exec:0046] UDF MRIClassifier does not exist, therefore cannot be dropped.
+NoneType: None
+01-16-2023 00:39:17 WARNING[command_handler:command_handler.py:handle_request:0076] UDF MRIClassifier does not exist, therefore cannot be dropped.
+01-16-2023 00:39:17 ERROR [generic_utils:generic_utils.py:path_to_class:0069] Failed to import MRIClassifier from /Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py
+Exception: module 'CustomModel' has no attribute 'MRIClassifier'
+01-16-2023 00:39:17 ERROR [create_udf_executor:create_udf_executor.py:exec:0061] Failed to import MRIClassifier from /Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py
+Exception: module 'CustomModel' has no attribute 'MRIClassifier'. Please verify that the UDF class name in the implementation file matches the provided UDF name MRIClassifier.
+01-16-2023 00:39:17 WARNING[command_handler:command_handler.py:handle_request:0076] Failed to import MRIClassifier from /Users/afaanansari/Desktop/gtech/eva/MRI-Detection-EVA-DB/new/working custom model/CustomModel.py
+Exception: module 'CustomModel' has no attribute 'MRIClassifier'. Please verify that the UDF class name in the implementation file matches the provided UDF name MRIClassifier.
